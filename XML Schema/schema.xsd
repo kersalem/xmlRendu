@@ -1,0 +1,77 @@
+<schema
+    xmlns="http://www.w3.org/2001/XMLSchema"
+    xmlns:p="urn:presentation"
+    targetNamespace="urn:presentation"
+    elementFormDefault="qualified">
+
+    <!-- definition de l'élément racine -->
+    <!--
+     avec des types anonymes
+    <element name="présentation">
+    <complexType name="interdit">
+    etc
+    </complexType>
+    </element>
+     -->
+
+    <!-- utilisation de types données-->
+
+    <element name="presentation" type="p:type_presentation" />
+
+    <!-- définition des complexes types-->
+           <complexType name="type_presentation">
+               <sequence>
+                   <element name="en_tête" type="p:type_entête" />
+                   <element name="diapo" type="p:type_diapo" maxOccurs="unbounded"/>
+               </sequence>
+           </complexType>
+
+       <complexType name="type_entête">
+           <sequence maxOccurs="unbounded">
+               <element name="modèle" type="p:type_modele" maxOccurs="unbounded" />
+               <element name="template" type="p:type_modele" minOccurs="0" maxOccurs="3" />
+           </sequence>
+       </complexType>
+
+       <complexType name="type_modele">
+           <attribute name="nom" type="string" use="required"/>
+           <attribute name="color" type="string" use="optional"/>
+           <attribute name="taille" type="string" use="optional"/>
+       </complexType>
+
+       <complexType name="type_diapo">
+           <sequence>
+               <element name="titre" type="string"/>
+               <element name="para" type="type_corps"/>
+           </sequence>
+           <attribute name="ref_modèle" type="string" use="optional"/>
+       </complexType>
+
+    <complexType name="type_corp">
+        <sequence>
+            <element name="bloc" type="type_bloc"/>
+        </sequence>
+        <attribute name="class" type="string" use="optional"/>
+    </complexType>
+
+
+    <complexType name="type_para" mixed="true">
+        <choice maxOccurs="unbounded" minOccurs="0">
+            <element name="gras"/>
+            <element name="couleur"/>
+        </choice>
+        <attribute name="class" type="string" use="optional"/>
+    </complexType>
+
+    <!-- définition des complexes simples-->
+
+</schema>
+
+
+   <!--
+      type="string" forcer à avoir que du contenu de type text donc
+   si attributs == complexetype
+       unbounded : illimitée
+       maxOccurs =
+       declarer les bons nom dont element racine
+   -->

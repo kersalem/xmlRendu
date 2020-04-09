@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<schema   xmlns:p="urn:presentation"
+          xmlns="http://www.w3.org/2001/XMLSchema"
+          targetNamespace="urn:presentation"
+          elementFormDefault="qualified">
+
+    <!-- présentation-->
+    <element name="présentation">
+        <complexType>
+            <sequence>
+                <element ref="p:en-tête"/>
+                <element maxOccurs="unbounded" ref="p:diapo"/>
+            </sequence>
+        </complexType>
+        <!-- présentation-ko8-->
+        <keyref name="myIdref" refer="p:myId">
+            <selector xpath="p:diapo"/>
+            <field xpath="@ref_modèle"/>
+        </keyref>
+    </element>
+
+    <!-- en-tête-->
+    <element name="en-tête">
+        <complexType>
+            <sequence>
+                <element maxOccurs="unbounded" ref="p:modèle"/>
+            </sequence>
+        </complexType>
+        <key name="myId">
+            <selector xpath="p:modèle"/>
+            <field xpath="@nom"/>
+        </key>
+    </element>
+
+    <!-- modele-->
+    <element name="modèle">
+        <complexType>
+            <attribute name="nom" use="required" type="NCName"/>
+            <attribute name="color" use="required"/>
+            <attribute name="taille" type="integer"/>
+        </complexType>
+    </element>
+
+    <!-- Diapo-->
+    <element name="diapo">
+        <complexType>
+            <sequence>
+                <element ref="p:titre"/>
+                <element ref="p:corps"/>
+            </sequence>
+            <attribute name="ref_modèle" use="required" type="NCName"/>
+        </complexType>
+    </element>
+
+    <!-- corps-->
+    <element name="corps">
+        <complexType>
+            <sequence>
+                <element minOccurs="0" maxOccurs="unbounded" ref="p:bloc"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <!-- Bloc-->
+    <element name="bloc">
+        <complexType>
+            <choice>
+                <element ref="p:liste"/>
+                <element ref="p:para"/>
+                <element ref="p:image"/>
+            </choice>
+        </complexType>
+    </element>
+
+    <!-- para-->
+    <element name="para">
+        <complexType mixed="true">
+            <choice minOccurs="0" maxOccurs="unbounded">
+                <element ref="p:couleur"/>
+                <element ref="p:gras"/>
+            </choice>
+        </complexType>
+    </element>
+
+    <!-- liste-->
+    <element name="liste">
+        <complexType>
+            <sequence>
+                <element minOccurs="0" maxOccurs="unbounded" ref="p:item"/>
+            </sequence>
+            <attribute name="type" use="required" type="NCName"/>
+        </complexType>
+    </element>
+
+    <!-- Item-->
+    <element name="item">
+        <complexType>
+            <choice minOccurs="0" maxOccurs="unbounded">
+                <element ref="p:liste"/>
+                <element ref="p:para"/>
+            </choice>
+        </complexType>
+    </element>
+
+    <!-- image-->
+    <element name="image">
+        <complexType>
+            <attribute name="src" type="NCName"/>
+        </complexType>
+    </element>
+
+    <!-- titre-->
+    <element name="titre" type="string"/>
+
+    <!-- couleur-->
+    <element name="couleur" type="NCName"/>
+
+    <!-- gras-->
+    <element name="gras" type="NCName"/>
+
+</schema>

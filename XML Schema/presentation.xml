@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE presentation SYSTEM "schema-presentation.dtd">
+<root>
+  <en-tête>
+    <modele couleur="#FF0066" taille="18"></modele>
+  </en-tête>
+  <diapositive>
+    <titre></titre>
+      <corps>
+        <blocs>
+          <p></p>
+          <list>
+            <item>
+              <p></p>
+              <p></p>
+              <p></p>
+            </item>
+            <item>
+              <p></p>
+              <p></p>
+              <p></p>
+            </item>
+            <item>
+              <p></p>
+            </item>
+            <item>
+              <p></p>
+            </item>
+          </list>
+        </blocs>
+      </corps>
+  </diapositive>
+  <diapositive>
+    <titre></titre>
+    <corps>
+      <p></p>
+      <list></list>
+    </corps>
+  </diapositive>
+</root>

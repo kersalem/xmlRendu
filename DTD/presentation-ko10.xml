@@ -1,0 +1,23 @@
+<!-- diapo sans titre -->
+<présentation xmlns="urn:presentation">
+  <en-tête>
+    <modèle nom="bleu" color="0000EE" taille="18"/>
+    <modèle nom="orange" color="FFA500"/>
+    <modèle nom="vert" color="11EE11"/>
+  </en-tête>
+  <diapo ref_modèle="tomato">
+    <bloc>
+      <liste>
+        <titre>Titre Liste 1</titre>
+        <item>Item1</item>
+      </liste>
+      <liste>
+        <titre>Titre Liste 2</titre>
+        <item>Item1</item>
+        <item>Item2</item>
+        <item>Item3</item>
+      </liste>
+      <liste>Liste3</liste>
+    </bloc>
+  </diapo>
+</présentation>

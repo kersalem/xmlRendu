@@ -1,0 +1,34 @@
+<presentation xmlns="urn:presentation">
+    <en_tête>
+        <modèle nom="bleu" color="0000EE" taille="18"/>
+        <modèle nom="rouge"/>
+        <modèle nom="vert"/>
+    </en_tête>
+    <diapo ref_modèle="jaune"/>
+        <titre>Ma diapo</titre>
+
+    <para class="normal">
+    <gras>Hello</gras>
+    <couleur>real</couleur>
+    <gras>real</gras>
+        world
+    </para>
+        <corps>
+            <bloc>
+                <para>Mon para</para>
+            </bloc>
+            <bloc>
+                <liste>
+                    <item>Item 1</item>
+                    <item>Item 2</item>
+                </liste>
+            </bloc>
+            <bloc>
+                <image src="image.png"/>
+            </bloc>
+        </corps>
+    <diapo/>
+    <diapo>
+        <titre>Diapo 2</titre>
+    </diapo>
+</presentation>

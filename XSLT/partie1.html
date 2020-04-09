@@ -1,0 +1,5795 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Partie 1</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<style>
+                    .bar {
+                    fill: red; /* changes the background */
+                    height: 21px;
+                    transition: fill .3s ease;
+                    cursor: pointer;
+                    font-family: Helvetica, sans-serif;
+                    }
+                </style>
+</head>
+<body>
+<div style="display:flex; flex-direction:row; margin:50px; ">
+<div class="dropdown show">
+<a class="btn btn-secondary dropdown-toggle" href="#country" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Nom
+                        </a><div class="dropdown-menu" aria-labelledby="dropdownMenuLink"><a class="dropdown-item" href="#country"><li><a href="#Afghanistan">Afghanistan</a></li>
+<li><a href="#Albania">Albania</a></li>
+<li><a href="#Algeria">Algeria</a></li>
+<li><a href="#American%20Samoa">American Samoa</a></li>
+<li><a href="#Andorra">Andorra</a></li>
+<li><a href="#Angola">Angola</a></li>
+<li><a href="#Anguilla">Anguilla</a></li>
+<li><a href="#Antigua%20and%20Barbuda">Antigua and Barbuda</a></li>
+<li><a href="#Argentina">Argentina</a></li>
+<li><a href="#Armenia">Armenia</a></li></a></div>
+</div>
+<div class="dropdown show">
+<a class="btn btn-secondary dropdown-toggle" href="#population" role="button" id="dropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Popu
+                        </a><div class="dropdown-menu" aria-labelledby="dropdownMenuLink2"><a class="dropdown-item" href="#population"><li><a href="#China"><b>China</b> :
+                1210004992</a></li>
+<li><a href="#India"><b>India</b> :
+                952107712</a></li>
+<li><a href="#United%20States"><b>United States</b> :
+                266476272</a></li>
+<li><a href="#Indonesia"><b>Indonesia</b> :
+                206611600</a></li>
+<li><a href="#Brazil"><b>Brazil</b> :
+                162661216</a></li>
+<li><a href="#Russia"><b>Russia</b> :
+                148178480</a></li>
+<li><a href="#Pakistan"><b>Pakistan</b> :
+                129275664</a></li>
+<li><a href="#Japan"><b>Japan</b> :
+                125449704</a></li>
+<li><a href="#Bangladesh"><b>Bangladesh</b> :
+                123062800</a></li>
+<li><a href="#Nigeria"><b>Nigeria</b> :
+                103912488</a></li></a></div>
+</div>
+<div class="dropdown show">
+<a class="btn btn-secondary dropdown-toggle" href="#area" role="button" id="dropdownMenuLink3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Area
+                        </a><div class="dropdown-menu" aria-labelledby="dropdownMenuLink3"><a class="dropdown-item" href="#area"><li><a href="#Russia"><b>Russia</b> :
+                    17075200</a></li>
+<li><a href="#Canada"><b>Canada</b> :
+                    9976140</a></li>
+<li><a href="#China"><b>China</b> :
+                    9596960</a></li>
+<li><a href="#United%20States"><b>United States</b> :
+                    9372610</a></li>
+<li><a href="#Brazil"><b>Brazil</b> :
+                    8511965</a></li>
+<li><a href="#Australia"><b>Australia</b> :
+                    7686850</a></li>
+<li><a href="#India"><b>India</b> :
+                    3287590</a></li>
+<li><a href="#Argentina"><b>Argentina</b> :
+                    2766890</a></li>
+<li><a href="#Kazakstan"><b>Kazakstan</b> :
+                    2717300</a></li>
+<li><a href="#Sudan"><b>Sudan</b> :
+                    2505810</a></li></a></div>
+</div>
+</div>
+<div class="container-fluid"><div class="row"><div class="col">
+<div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Afghanistan</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">22664136 habitants
+                        </td>
+<td class="card-text">647500 km2
+                        </td>
+</tr>
+</table>
+<br><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">Afghan Persian<rect height="20" width="100" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg><svg height="20" width="300">Pashtu<rect height="20" width="70" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg><svg height="20" width="300">Turkic<rect height="20" width="22" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Albania</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">3249136 habitants
+                        </td>
+<td class="card-text">28750 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Algeria</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">29183032 habitants
+                        </td>
+<td class="card-text">2381740 km2
+                        </td>
+</tr>
+</table>
+<br><p>Ville: </p>
+            Algiers
+            1507241
+        <hr>
+<h4>Histogramme</h4>
+<svg width="30" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="30" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="25.8239274109695" x="0" y="189.670429035612"></rect><text x="200" y="200" dy="50">Algiers</text></g>
+        
+    </svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  American Samoa</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">59566 habitants
+                        </td>
+<td class="card-text">199 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Andorra</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">72766 habitants
+                        </td>
+<td class="card-text">450 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Angola</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">10342899 habitants
+                        </td>
+<td class="card-text">1246700 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Anguilla</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">10424 habitants
+                        </td>
+<td class="card-text">91 km2
+                        </td>
+</tr>
+</table>
+<br><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">English<rect height="20" width="200" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Antigua and Barbuda</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">65647 habitants
+                        </td>
+<td class="card-text">440 km2
+                        </td>
+</tr>
+</table>
+<br><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">English<rect height="20" width="200" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Argentina</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">34672996 habitants
+                        </td>
+<td class="card-text">2766890 km2
+                        </td>
+</tr>
+</table>
+<br><p>Villes :</p>
+            La Matanza
+            1111811
+        
+            Cordoba
+            1208713
+        
+            Rosario
+            1118984
+        
+            Buenos Aires
+            2988006
+        <hr>
+<h4>Histogramme</h4>
+<svg width="120" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="120" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="43.088373441972" x="0" y="182.764650623211"></rect><text x="200" y="200" dy="50">Buenos Aires</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="17.4301782286134" x="30" y="193.027928708555"></rect><text x="200" y="200" dy="50">Cordoba</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="16.1362462015108" x="60" y="193.545501519396"></rect><text x="200" y="200" dy="50">Rosario</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="16.0328083561051" x="90" y="193.586876657558"></rect><text x="200" y="200" dy="50">La Matanza</text></g>
+        
+        
+        
+        
+    </svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Armenia</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">3463574 habitants
+                        </td>
+<td class="card-text">29800 km2
+                        </td>
+</tr>
+</table>
+<br><p>Ville: </p>
+            Yerevan
+            1200000
+        <hr>
+<h4>Histogramme</h4>
+<svg width="30" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="30" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="173.231465532424" x="0" y="130.70741378703"></rect><text x="200" y="200" dy="50">Yerevan</text></g>
+        
+        Russian
+        Armenian
+    </svg><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">Armenian<rect height="20" width="192" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg><svg height="20" width="300">Russian<rect height="20" width="4" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Aruba</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">67794 habitants
+                        </td>
+<td class="card-text">193 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Australia</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">18260864 habitants
+                        </td>
+<td class="card-text">7686850 km2
+                        </td>
+</tr>
+</table>
+<br><p>Villes :</p>
+            Sydney
+            3657000
+        
+            Brisbane
+            1302000
+        
+            Adelaide
+            1050000
+        
+            Melbourne
+            3081000
+        
+            Perth
+            1193000
+        <hr>
+<h4>Histogramme</h4>
+<svg width="150" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="150" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="100.132173373615" x="0" y="159.947130650554"></rect><text x="200" y="200" dy="50">Sydney</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="84.3607399956541" x="30" y="166.255704001738"></rect><text x="200" y="200" dy="50">Melbourne</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="35.6500108647652" x="60" y="185.739995654094"></rect><text x="200" y="200" dy="50">Brisbane</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="32.665486145672" x="90" y="186.933805541731"></rect><text x="200" y="200" dy="50">Perth</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="28.7500087619074" x="120" y="188.499996495237"></rect><text x="200" y="200" dy="50">Adelaide</text></g>
+        
+        
+        
+        
+        
+        English
+    </svg><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">English<rect height="20" width="200" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Austria</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">8023244 habitants
+                        </td>
+<td class="card-text">83850 km2
+                        </td>
+</tr>
+</table>
+<br><p>Ville: </p>
+            Vienna
+            1583000
+        <hr>
+<h4>Histogramme</h4>
+<svg width="30" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="30" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="98.6508698975128" x="0" y="160.539652040995"></rect><text x="200" y="200" dy="50">Vienna</text></g>
+        
+        German
+    </svg><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">German<rect height="20" width="200" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Azerbaijan</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">7676953 habitants
+                        </td>
+<td class="card-text">86600 km2
+                        </td>
+</tr>
+</table>
+<br><p>Ville: </p>
+            Baku
+            1740000
+        <hr>
+<h4>Histogramme</h4>
+<svg width="30" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="30" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="113.326211584205" x="0" y="154.669515366318"></rect><text x="200" y="200" dy="50">Baku</text></g>
+        
+        Russian
+        Armenian
+        Azeri
+    </svg><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">Azeri<rect height="20" width="178" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg><svg height="20" width="300">Russian<rect height="20" width="6" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg><svg height="20" width="300">Armenian<rect height="20" width="4" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Bahamas</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">259367 habitants
+                        </td>
+<td class="card-text">13940 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Bahrain</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">590042 habitants
+                        </td>
+<td class="card-text">620 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Bangladesh</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">123062800 habitants
+                        </td>
+<td class="card-text">144000 km2
+                        </td>
+</tr>
+</table>
+<br><p>Villes :</p>
+            Dhaka
+            3839000
+        
+            Chittagong
+            1599000
+        <hr>
+<h4>Histogramme</h4>
+<svg width="60" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="60" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="15.5977273392122" x="0" y="193.760909064315"></rect><text x="200" y="200" dy="50">Dhaka</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="6.496682994373605" x="30" y="197.401326802251"></rect><text x="200" y="200" dy="50">Chittagong</text></g>
+        
+        
+    </svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Barbados</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">257030 habitants
+                        </td>
+<td class="card-text">430 km2
+                        </td>
+</tr>
+</table>
+<br><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">English<rect height="20" width="200" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Belarus</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">10415973 habitants
+                        </td>
+<td class="card-text">207600 km2
+                        </td>
+</tr>
+</table>
+<br><p>Ville: </p>
+            Minsk
+            1540000
+        <hr>
+<h4>Histogramme</h4>
+<svg width="30" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="30" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="73.9249228084597" x="0" y="170.430030876616"></rect><text x="200" y="200" dy="50">Minsk</text></g>
+        
+    </svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Belgium</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">10170241 habitants
+                        </td>
+<td class="card-text">30510 km2
+                        </td>
+</tr>
+</table>
+<br><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">Dutch<rect height="20" width="112" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg><svg height="20" width="300">French<rect height="20" width="64" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg><svg height="20" width="300">German<rect height="20" width="2" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Belize</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">219296 habitants
+                        </td>
+<td class="card-text">22960 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Benin</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">5709529 habitants
+                        </td>
+<td class="card-text">112620 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Bermuda</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">62099 habitants
+                        </td>
+<td class="card-text">50 km2
+                        </td>
+</tr>
+</table>
+<br><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">English<rect height="20" width="200" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Bhutan</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">1822625 habitants
+                        </td>
+<td class="card-text">47000 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Bolivia</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">7165257 habitants
+                        </td>
+<td class="card-text">1098580 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Bosnia and Herzegovina</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">2656240 habitants
+                        </td>
+<td class="card-text">51233 km2
+                        </td>
+</tr>
+</table>
+<br><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">Serbo-Croatian<rect height="20" width="198" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Botswana</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">1477630 habitants
+                        </td>
+<td class="card-text">600370 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Brazil</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">162661216 habitants
+                        </td>
+<td class="card-text">8511965 km2
+                        </td>
+</tr>
+</table>
+<br><p>Villes :</p>
+            Manaus
+            1158265
+        
+            Salvador
+            2209465
+        
+            Fortaleza
+            1967365
+        
+            Belo Horizonte
+            2091770
+        
+            Belem
+            1142258
+        
+            Curitiba
+            1465698
+        
+            Recife
+            1342877
+        
+            Rio de Janeiro
+            5533011
+        
+            Porto Alegre
+            1286251
+        
+            Sao Paulo
+            9811776
+        
+            Brasilia
+            1817001
+        <hr>
+<h4>Histogramme</h4>
+<svg width="330" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="330" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="30.1601581534962" x="0" y="187.935936738602"></rect><text x="200" y="200" dy="50">Sao Paulo</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="17.0077758425217" x="30" y="193.196889662991"></rect><text x="200" y="200" dy="50">Rio de Janeiro</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="6.791615894473579" x="60" y="197.283353642211"></rect><text x="200" y="200" dy="50">Salvador</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="6.429836353860775" x="90" y="197.428065458456"></rect><text x="200" y="200" dy="50">Belo Horizonte</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="6.047431122118256" x="120" y="197.581027551153"></rect><text x="200" y="200" dy="50">Fortaleza</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="5.585231208403115" x="150" y="197.765907516639"></rect><text x="200" y="200" dy="50">Brasilia</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="4.505370229127022" x="180" y="198.197851908349"></rect><text x="200" y="200" dy="50">Curitiba</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="4.127834012995452" x="210" y="198.348866394802"></rect><text x="200" y="200" dy="50">Recife</text></g>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  British Virgin Islands</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">13195 habitants
+                        </td>
+<td class="card-text">150 km2
+                        </td>
+</tr>
+</table>
+<br><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">English<rect height="20" width="200" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Brunei</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">299939 habitants
+                        </td>
+<td class="card-text">5770 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Bulgaria</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">8612757 habitants
+                        </td>
+<td class="card-text">110910 km2
+                        </td>
+</tr>
+</table>
+<br><p>Ville: </p>
+            Sofia
+            1300000
+        <hr>
+<h4>Histogramme</h4>
+<svg width="30" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="30" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="75.4694460786482" x="0" y="169.812221568541"></rect><text x="200" y="200" dy="50">Sofia</text></g>
+        
+        Bulgarian
+    </svg><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">Bulgarian<rect height="20" width="200" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Burkina Faso</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">10623323 habitants
+                        </td>
+<td class="card-text">274200 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Burma</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">45975624 habitants
+                        </td>
+<td class="card-text">678500 km2
+                        </td>
+</tr>
+</table>
+<br><p>Ville: </p>
+            Rangoon
+            2513000
+        <hr>
+<h4>Histogramme</h4>
+<svg width="30" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="30" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="27.3296997556792" x="0" y="189.068120097728"></rect><text x="200" y="200" dy="50">Rangoon</text></g>
+        
+        Burmese
+    </svg><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">Burmese<rect height="20" width="200" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Burundi</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">5943057 habitants
+                        </td>
+<td class="card-text">27830 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Cambodia</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">10861218 habitants
+                        </td>
+<td class="card-text">181040 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Cameroon</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">14261557 habitants
+                        </td>
+<td class="card-text">475440 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Canada</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">28820672 habitants
+                        </td>
+<td class="card-text">9976140 km2
+                        </td>
+</tr>
+</table>
+<br><p>Ville: </p>
+            Montreal
+            1017666
+        <hr>
+<h4>Histogramme</h4>
+<svg width="30" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="30" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="17.6551400328209" x="0" y="192.937943986872"></rect><text x="200" y="200" dy="50">Montreal</text></g>
+        
+    </svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Cape Verde</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">449066 habitants
+                        </td>
+<td class="card-text">4030 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Cayman Islands</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">34646 habitants
+                        </td>
+<td class="card-text">260 km2
+                        </td>
+</tr>
+</table>
+<br><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">English<rect height="20" width="200" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Central African Republic</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">3274426 habitants
+                        </td>
+<td class="card-text">622980 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Chad</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">6976845 habitants
+                        </td>
+<td class="card-text">1284000 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Chile</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">14333258 habitants
+                        </td>
+<td class="card-text">756950 km2
+                        </td>
+</tr>
+</table>
+<br><p>Ville: </p>
+            Santiago
+            4318000
+        <hr>
+<h4>Histogramme</h4>
+<svg width="30" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="30" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="150.62869865316" x="0" y="139.748520538736"></rect><text x="200" y="200" dy="50">Santiago</text></g>
+        
+        Spanish
+    </svg><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">Spanish<rect height="20" width="200" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  China</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">1210004992 habitants
+                        </td>
+<td class="card-text">9596960 km2
+                        </td>
+</tr>
+</table>
+<br><p>Villes :</p>
+            Hong Kong
+            6218000
+        
+            Hefei
+            1000000
+        
+            Huainan
+            1200000
+        
+            Lanzhou
+            1510000
+        
+            Guangzhou
+            3580000
+        
+            Guiyang
+            1530000
+        
+            Shijiazhuang
+            1320000
+        
+            Tangshan
+            1500000
+        
+            Handan
+            1110000
+        
+            Harbin
+            2830000
+        
+            Qiqihar
+            1380000
+        
+            Zhengzhou
+            1710000
+        
+            Luoyang
+            1190000
+        
+            Wuhan
+            3750000
+        
+            Changsha
+            1330000
+        
+            Nanjing
+            2500000
+        
+            Fuzhou
+            1290000
+        
+            Nanchang
+            1350000
+        
+            Jilin
+            1270000
+        
+            Changchun
+            2110000
+        
+            Shenyang
+            4540000
+        
+            Dalian
+            2400000
+        
+            Anshan
+            1390000
+        
+            Fushun
+            1350000
+        
+            Xian
+            2760000
+        
+            Jinan
+            2320000
+        
+            Zibo
+            2460000
+        
+            Qingdao
+            2060000
+        
+            Taiyuan
+            1960000
+        
+            Datong
+            1110000
+        
+            Chengdu
+            2810000
+        
+            Chongqing
+            2980000
+        
+            Kunming
+            1520000
+        
+            Hangzhou
+            1340000
+        
+            Ningbo
+            1090000
+        
+            Nanning
+            1070000
+        
+            Baotou
+            1200000
+        
+            Urumqi
+            1160000
+        
+            Beijing
+            7000000
+        
+            Shanghai
+            7830000
+        
+            Tianjin
+            5770000
+        <hr>
+<h4>Histogramme</h4>
+<svg width="1230" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="1230" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="3.235523841541308" x="0" y="198.705790463383"></rect><text x="200" y="200" dy="50">Shanghai</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="2.892550049909215" x="30" y="198.842979980036"></rect><text x="200" y="200" dy="50">Beijing</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="2.569410887190786" x="60" y="198.972235645124"></rect><text x="200" y="200" dy="50">Hong Kong</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="2.384287683996596" x="90" y="199.046284926401"></rect><text x="200" y="200" dy="50">Tianjin</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="1.876025318083977" x="120" y="199.249589872766"></rect><text x="200" y="200" dy="50">Shenyang</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="1.549580383879937" x="150" y="199.380167846448"></rect><text x="200" y="200" dy="50">Wuhan</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="1.479332739810713" x="180" y="199.408266904076"></rect><text x="200" y="200" dy="50">Guangzhou</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="1.231399878389923" x="210" y="199.507440048644"></rect><text x="200" y="200" dy="50">Chongqing</text></g>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Christmas Island</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">813 habitants
+                        </td>
+<td class="card-text">135 km2
+                        </td>
+</tr>
+</table>
+<br><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">English<rect height="20" width="200" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Cocos Islands</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">609 habitants
+                        </td>
+<td class="card-text">14 km2
+                        </td>
+</tr>
+</table>
+<br><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">English<rect height="20" width="200" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Colombia</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">36813160 habitants
+                        </td>
+<td class="card-text">1138910 km2
+                        </td>
+</tr>
+</table>
+<br><p>Villes :</p>
+            Medellin
+            1621356
+        
+            Barranquilla
+            1064255
+        
+            Bogota
+            5237635
+        
+            Cali
+            1718871
+        <hr>
+<h4>Histogramme</h4>
+<svg width="120" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="120" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="71.1380794259444" x="0" y="171.544768229622"></rect><text x="200" y="200" dy="50">Bogota</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="23.3458768549073" x="30" y="190.661649258037"></rect><text x="200" y="200" dy="50">Cali</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="22.0214184275406" x="60" y="191.191432628984"></rect><text x="200" y="200" dy="50">Medellin</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="14.4548172447027" x="90" y="194.218073102119"></rect><text x="200" y="200" dy="50">Barranquilla</text></g>
+        
+        
+        
+        
+        Spanish
+    </svg><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">Spanish<rect height="20" width="200" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Comoros</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">569237 habitants
+                        </td>
+<td class="card-text">2170 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Congo</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">2527841 habitants
+                        </td>
+<td class="card-text">342000 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Cook Islands</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">19561 habitants
+                        </td>
+<td class="card-text">240 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Costa Rica</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">3463083 habitants
+                        </td>
+<td class="card-text">51100 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Cote dIvoire</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">14762445 habitants
+                        </td>
+<td class="card-text">322460 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Croatia</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">5004112 habitants
+                        </td>
+<td class="card-text">56538 km2
+                        </td>
+</tr>
+</table>
+<br><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">Serbo-Croatian<rect height="20" width="192" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Cuba</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">10951334 habitants
+                        </td>
+<td class="card-text">110860 km2
+                        </td>
+</tr>
+</table>
+<br><p>Ville: </p>
+            Havana
+            2241000
+        <hr>
+<h4>Histogramme</h4>
+<svg width="30" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="30" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="102.316302287922" x="0" y="159.073479084831"></rect><text x="200" y="200" dy="50">Havana</text></g>
+        
+        Spanish
+    </svg><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">Spanish<rect height="20" width="200" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Cyprus</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">744609 habitants
+                        </td>
+<td class="card-text">9250 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Czech Republic</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">10321120 habitants
+                        </td>
+<td class="card-text">78703 km2
+                        </td>
+</tr>
+</table>
+<br><p>Ville: </p>
+            Prague
+            1215000
+        <hr>
+<h4>Histogramme</h4>
+<svg width="30" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="30" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="58.8598911746012" x="0" y="176.45604353016"></rect><text x="200" y="200" dy="50">Prague</text></g>
+        
+    </svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Denmark</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">5249632 habitants
+                        </td>
+<td class="card-text">43070 km2
+                        </td>
+</tr>
+</table>
+<br><p>Ville: </p>
+            Copenhagen
+            1358540
+        <hr>
+<h4>Histogramme</h4>
+<svg width="30" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="30" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="129.39383179621" x="0" y="148.242467281516"></rect><text x="200" y="200" dy="50">Copenhagen</text></g>
+        
+    </svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Djibouti</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">427642 habitants
+                        </td>
+<td class="card-text">22000 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Dominica</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">82926 habitants
+                        </td>
+<td class="card-text">750 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Dominican Republic</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">8088881 habitants
+                        </td>
+<td class="card-text">48730 km2
+                        </td>
+</tr>
+</table>
+<br><p>Ville: </p>
+            Santo Domingo
+            1400000
+        <hr>
+<h4>Histogramme</h4>
+<svg width="30" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="30" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="86.5385459373181" x="0" y="165.384581625073"></rect><text x="200" y="200" dy="50">Santo Domingo</text></g>
+        
+        Spanish
+    </svg><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">Spanish<rect height="20" width="200" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Ecuador</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">11466291 habitants
+                        </td>
+<td class="card-text">283560 km2
+                        </td>
+</tr>
+</table>
+<br><p>Villes :</p>
+            Quito
+            1200000
+        
+            Guayaquil
+            1300868
+        <hr>
+<h4>Histogramme</h4>
+<svg width="60" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="60" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="56.7257537768752" x="0" y="177.30969848925"></rect><text x="200" y="200" dy="50">Guayaquil</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="52.3272957227407" x="30" y="179.069081710904"></rect><text x="200" y="200" dy="50">Quito</text></g>
+        
+        
+    </svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Egypt</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">63575108 habitants
+                        </td>
+<td class="card-text">1001450 km2
+                        </td>
+</tr>
+</table>
+<br><p>Villes :</p>
+            El Giza
+            1671000
+        
+            Alexandria
+            2917000
+        
+            Cairo
+            6053000
+        <hr>
+<h4>Histogramme</h4>
+<svg width="90" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="90" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="47.6051098489679" x="0" y="180.957956060413"></rect><text x="200" y="200" dy="50">Cairo</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="22.9413688137187" x="30" y="190.823452474513"></rect><text x="200" y="200" dy="50">Alexandria</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="13.1419359916777" x="60" y="194.743225603329"></rect><text x="200" y="200" dy="50">El Giza</text></g>
+        
+        
+        
+    </svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  El Salvador</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">5828987 habitants
+                        </td>
+<td class="card-text">21040 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Equatorial Guinea</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">431282 habitants
+                        </td>
+<td class="card-text">28050 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Eritrea</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">3427883 habitants
+                        </td>
+<td class="card-text">121320 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Estonia</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">1459428 habitants
+                        </td>
+<td class="card-text">45100 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Ethiopia</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">57171664 habitants
+                        </td>
+<td class="card-text">1127127 km2
+                        </td>
+</tr>
+</table>
+<br><p>Ville: </p>
+            Addis Ababa
+            2316400
+        <hr>
+<h4>Histogramme</h4>
+<svg width="30" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="30" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="20.2582873921599" x="0" y="191.896685043136"></rect><text x="200" y="200" dy="50">Addis Ababa</text></g>
+        
+    </svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Falkland Islands</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">2374 habitants
+                        </td>
+<td class="card-text">12170 km2
+                        </td>
+</tr>
+</table>
+<br><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">English<rect height="20" width="200" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Faroe Islands</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">43857 habitants
+                        </td>
+<td class="card-text">1400 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Fiji</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">782381 habitants
+                        </td>
+<td class="card-text">18270 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Finland</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">5105230 habitants
+                        </td>
+<td class="card-text">337030 km2
+                        </td>
+</tr>
+</table>
+<br><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">Finnish<rect height="20" width="187" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg><svg height="20" width="300">Swedish<rect height="20" width="12.6" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  France</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">58317448 habitants
+                        </td>
+<td class="card-text">547030 km2
+                        </td>
+</tr>
+</table>
+<br><p>Ville: </p>
+            Paris
+            2152423
+        <hr>
+<h4>Histogramme</h4>
+<svg width="30" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="30" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="18.454365492811" x="0" y="192.618253802876"></rect><text x="200" y="200" dy="50">Paris</text></g>
+        
+        French
+    </svg><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">French<rect height="20" width="200" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  French Guiana</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">151187 habitants
+                        </td>
+<td class="card-text">91000 km2
+                        </td>
+</tr>
+</table>
+<br><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">French<rect height="20" width="200" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  French Polynesia</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">224911 habitants
+                        </td>
+<td class="card-text">4167 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Gabon</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">1172798 habitants
+                        </td>
+<td class="card-text">267670 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Gambia</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">1204984 habitants
+                        </td>
+<td class="card-text">11300 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Georgia</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">5219810 habitants
+                        </td>
+<td class="card-text">69700 km2
+                        </td>
+</tr>
+</table>
+<br><p>Ville: </p>
+            Tbilisi
+            1200000
+        <hr>
+<h4>Histogramme</h4>
+<svg width="30" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="30" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="114.946712619808" x="0" y="154.021314952077"></rect><text x="200" y="200" dy="50">Tbilisi</text></g>
+        
+        Russian
+        Armenian
+        Azeri
+        Georgian
+    </svg><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">Georgian<rect height="20" width="142" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg><svg height="20" width="300">Russian<rect height="20" width="18" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg><svg height="20" width="300">Armenian<rect height="20" width="14" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg><svg height="20" width="300">Azeri<rect height="20" width="12" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Germany</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">83536112 habitants
+                        </td>
+<td class="card-text">356910 km2
+                        </td>
+</tr>
+</table>
+<br><p>Villes :</p>
+            Munchen
+            1244676
+        
+            Muenchen
+            1290079
+        
+            Berlin
+            3472009
+        
+            Hamburg
+            1705872
+        <hr>
+<h4>Histogramme</h4>
+<svg width="120" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="120" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="20.7814854969549" x="0" y="191.687405801218"></rect><text x="200" y="200" dy="50">Berlin</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="10.2103866169879" x="30" y="195.915845353205"></rect><text x="200" y="200" dy="50">Hamburg</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="7.721684485387589" x="60" y="196.911326205845"></rect><text x="200" y="200" dy="50">Muenchen</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="7.449927762977525" x="90" y="197.020028894809"></rect><text x="200" y="200" dy="50">Munchen</text></g>
+        
+        
+        
+        
+        German
+    </svg><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">German<rect height="20" width="200" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Ghana</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">17698272 habitants
+                        </td>
+<td class="card-text">238540 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Gibraltar</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">28765 habitants
+                        </td>
+<td class="card-text">6.5 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Greece</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">10538594 habitants
+                        </td>
+<td class="card-text">131940 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Greenland</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">58203 habitants
+                        </td>
+<td class="card-text">2175600 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Grenada</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">94961 habitants
+                        </td>
+<td class="card-text">340 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Guadeloupe</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">407768 habitants
+                        </td>
+<td class="card-text">1780 km2
+                        </td>
+</tr>
+</table>
+<br><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">French<rect height="20" width="198" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Guam</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">156974 habitants
+                        </td>
+<td class="card-text">541.3 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Guatemala</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">11277614 habitants
+                        </td>
+<td class="card-text">108890 km2
+                        </td>
+</tr>
+</table>
+<br><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">Spanish<rect height="20" width="120" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg><svg height="20" width="300">Indian<rect height="20" width="80" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Guernsey</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">62920 habitants
+                        </td>
+<td class="card-text">194 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Guinea</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">7411981 habitants
+                        </td>
+<td class="card-text">245860 km2
+                        </td>
+</tr>
+</table>
+<br><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">French<rect height="20" width="200" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Guinea-Bissau</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">1151330 habitants
+                        </td>
+<td class="card-text">36120 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Guyana</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">712091 habitants
+                        </td>
+<td class="card-text">214970 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Haiti</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">6731539 habitants
+                        </td>
+<td class="card-text">27750 km2
+                        </td>
+</tr>
+</table>
+<br><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">French<rect height="20" width="20" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Holy See</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">840 habitants
+                        </td>
+<td class="card-text">0.44 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Honduras</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">5605193 habitants
+                        </td>
+<td class="card-text">112090 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Hungary</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">10002541 habitants
+                        </td>
+<td class="card-text">93030 km2
+                        </td>
+</tr>
+</table>
+<br><p>Ville: </p>
+            Budapest
+            2016000
+        <hr>
+<h4>Histogramme</h4>
+<svg width="30" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="30" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="100.774393226681" x="0" y="159.690242709328"></rect><text x="200" y="200" dy="50">Budapest</text></g>
+        
+        Hungarian
+    </svg><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">Hungarian<rect height="20" width="196.4" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Iceland</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">270292 habitants
+                        </td>
+<td class="card-text">103000 km2
+                        </td>
+</tr>
+</table>
+<br><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">Icelandic<rect height="20" width="200" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  India</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">952107712 habitants
+                        </td>
+<td class="card-text">3287590 km2
+                        </td>
+</tr>
+</table>
+<br><p>Villes :</p>
+            Hyderabad
+            3145939
+        
+            Ahmadabad
+            2954526
+        
+            Surat
+            1505872
+        
+            Vadodara
+            1061598
+        
+            Bangalore
+            3302296
+        
+            Bhopal
+            1062771
+        
+            Indore
+            1091674
+        
+            Mumbai
+            9925891
+        
+            Nagpur
+            1624752
+        
+            Pune
+            1566651
+        
+            Kalyan
+            1014557
+        
+            Ludhiana
+            1042740
+        
+            Jaipur
+            1458183
+        
+            Madras
+            3841396
+        
+            Lucknow
+            1619115
+        
+            Kanpur
+            1879420
+        
+            Calcutta
+            4399819
+        
+            New Delhi
+            7206704
+        <hr>
+<h4>Histogramme</h4>
+<svg width="540" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="540" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="5.212588279087482" x="0" y="197.914964688365"></rect><text x="200" y="200" dy="50">Mumbai</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="3.784605412375864" x="30" y="198.48615783505"></rect><text x="200" y="200" dy="50">New Delhi</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="2.310567882470844" x="60" y="199.075772847012"></rect><text x="200" y="200" dy="50">Calcutta</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="2.017311671560118" x="90" y="199.193075331376"></rect><text x="200" y="200" dy="50">Madras</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="1.734202946987578" x="120" y="199.306318821205"></rect><text x="200" y="200" dy="50">Bangalore</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="1.652091964149535" x="150" y="199.33916321434"></rect><text x="200" y="200" dy="50">Hyderabad</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="1.551571299529606" x="180" y="199.379371480188"></rect><text x="200" y="200" dy="50">Ahmadabad</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="0.986978666548182" x="210" y="199.605208533381"></rect><text x="200" y="200" dy="50">Kanpur</text></g>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        Hindi
+    </svg><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">Hindi<rect height="20" width="60" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Indonesia</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">206611600 habitants
+                        </td>
+<td class="card-text">1919440 km2
+                        </td>
+</tr>
+</table>
+<br><p>Villes :</p>
+            Jakarta
+            8259266
+        
+            Bandung
+            2058649
+        
+            Semarang
+            1250971
+        
+            Surabaya
+            2483871
+        
+            Palembang
+            1144279
+        
+            Medan
+            1730752
+        <hr>
+<h4>Histogramme</h4>
+<svg width="180" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="180" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="19.9874208418114" x="0" y="192.005031663275"></rect><text x="200" y="200" dy="50">Jakarta</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="6.010966954420759" x="30" y="197.595613218232"></rect><text x="200" y="200" dy="50">Surabaya</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="4.981929862602099" x="60" y="198.007228054959"></rect><text x="200" y="200" dy="50">Bandung</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="4.18841923686763" x="90" y="198.324632305253"></rect><text x="200" y="200" dy="50">Medan</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="3.027349384061689" x="120" y="198.789060246375"></rect><text x="200" y="200" dy="50">Semarang</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="2.769154781241711" x="150" y="198.892338087503"></rect><text x="200" y="200" dy="50">Palembang</text></g>
+        
+        
+        
+        
+        
+        
+    </svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Iran</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">66094264 habitants
+                        </td>
+<td class="card-text">1648000 km2
+                        </td>
+</tr>
+</table>
+<br><p>Villes :</p>
+            Tabriz
+            1166203
+        
+            Esfahan
+            1220595
+        
+            Shiraz
+            1042801
+        
+            Mashhad
+            1964489
+        
+            Tehran
+            6750043
+        <hr>
+<h4>Histogramme</h4>
+<svg width="150" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="150" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="51.0637579684676" x="0" y="179.574496812613"></rect><text x="200" y="200" dy="50">Tehran</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="14.8612669323317" x="30" y="194.055493227067"></rect><text x="200" y="200" dy="50">Mashhad</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="9.233743793561271" x="60" y="196.306502482575"></rect><text x="200" y="200" dy="50">Esfahan</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="8.822270870585683" x="90" y="196.471091651766"></rect><text x="200" y="200" dy="50">Tabriz</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="7.888740541841875" x="120" y="196.844503783263"></rect><text x="200" y="200" dy="50">Shiraz</text></g>
+        
+        
+        
+        
+        
+        Turkish
+        Baloch
+        Kurdish
+        Arabic
+        Luri
+        Persian Persian
+        Turkic Turkic
+    </svg><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">Persian Persian<rect height="20" width="116" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg><svg height="20" width="300">Turkic Turkic<rect height="20" width="52" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg><svg height="20" width="300">Kurdish<rect height="20" width="18" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg><svg height="20" width="300">Luri<rect height="20" width="4" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg><svg height="20" width="300">Turkish<rect height="20" width="2" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg><svg height="20" width="300">Baloch<rect height="20" width="2" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg><svg height="20" width="300">Arabic<rect height="20" width="2" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Iraq</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">21422292 habitants
+                        </td>
+<td class="card-text">437072 km2
+                        </td>
+</tr>
+</table>
+<br><p>Ville: </p>
+            Baghdad
+            4478000
+        <hr>
+<h4>Histogramme</h4>
+<svg width="30" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="30" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="104.517294414622" x="0" y="158.193082234151"></rect><text x="200" y="200" dy="50">Baghdad</text></g>
+        
+    </svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Ireland</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">3566833 habitants
+                        </td>
+<td class="card-text">70280 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Israel</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">5421995 habitants
+                        </td>
+<td class="card-text">20770 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Italy</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">57460272 habitants
+                        </td>
+<td class="card-text">301230 km2
+                        </td>
+</tr>
+</table>
+<br><p>Villes :</p>
+            Milano
+            1432184
+        
+            Rome
+            2791354
+        
+            Napoli
+            1206013
+        <hr>
+<h4>Histogramme</h4>
+<svg width="90" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="90" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="24.2894255704185" x="0" y="190.284229771833"></rect><text x="200" y="200" dy="50">Rome</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="12.4623844453782" x="30" y="195.015046221849"></rect><text x="200" y="200" dy="50">Milano</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="10.4943203192634" x="60" y="195.802271872295"></rect><text x="200" y="200" dy="50">Napoli</text></g>
+        
+        
+        
+    </svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Jamaica</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">2595275 habitants
+                        </td>
+<td class="card-text">10990 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Japan</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">125449704 habitants
+                        </td>
+<td class="card-text">377835 km2
+                        </td>
+</tr>
+</table>
+<br><p>Villes :</p>
+            Sapporo
+            1748000
+        
+            Tokyo
+            7843000
+        
+            Yokohama
+            3256000
+        
+            Kawasaki
+            1187000
+        
+            Nagoya
+            2108000
+        
+            Kyoto
+            1415000
+        
+            Osaka
+            2492000
+        
+            Kobe
+            1388000
+        
+            Hiroshima
+            1099000
+        
+            Fukuoka
+            1273000
+        
+            Kita kyushu
+            1012000
+        <hr>
+<h4>Histogramme</h4>
+<svg width="330" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="330" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="31.2595396797429" x="0" y="187.496184128103"></rect><text x="200" y="200" dy="50">Tokyo</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="12.9773124056156" x="30" y="194.809075037754"></rect><text x="200" y="200" dy="50">Yokohama</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="9.932267357123457" x="60" y="196.027093057151"></rect><text x="200" y="200" dy="50">Osaka</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="8.401773510760934" x="90" y="196.639290595696"></rect><text x="200" y="200" dy="50">Nagoya</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="6.966935529796069" x="120" y="197.213225788082"></rect><text x="200" y="200" dy="50">Sapporo</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="5.639710397403569" x="150" y="197.744115841039"></rect><text x="200" y="200" dy="50">Kyoto</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="5.532097548831203" x="180" y="197.787160980468"></rect><text x="200" y="200" dy="50">Kobe</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="5.073746527134094" x="210" y="197.970501389146"></rect><text x="200" y="200" dy="50">Fukuoka</text></g>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        Japanese
+    </svg><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">Japanese<rect height="20" width="200" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Jersey</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">87848 habitants
+                        </td>
+<td class="card-text">117 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Jordan</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">4212152 habitants
+                        </td>
+<td class="card-text">89213 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Kazakstan</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">16916464 habitants
+                        </td>
+<td class="card-text">2717300 km2
+                        </td>
+</tr>
+</table>
+<br><p>Ville: </p>
+            Almaty
+            1172400
+        <hr>
+<h4>Histogramme</h4>
+<svg width="30" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="30" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="34.6526318975408" x="0" y="186.138947240984"></rect><text x="200" y="200" dy="50">Almaty</text></g>
+        
+        Kazak
+    </svg><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">Kazak<rect height="20" width="80" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Kenya</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">28176686 habitants
+                        </td>
+<td class="card-text">582650 km2
+                        </td>
+</tr>
+</table>
+<br><p>Ville: </p>
+            Nairobi
+            2000000
+        <hr>
+<h4>Histogramme</h4>
+<svg width="30" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="30" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="35.4903341010366" x="0" y="185.803866359585"></rect><text x="200" y="200" dy="50">Nairobi</text></g>
+        
+    </svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Kiribati</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">80919 habitants
+                        </td>
+<td class="card-text">717 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Kuwait</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">1950047 habitants
+                        </td>
+<td class="card-text">17820 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Kyrgyzstan</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">4529648 habitants
+                        </td>
+<td class="card-text">198500 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Laos</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">4975772 habitants
+                        </td>
+<td class="card-text">236800 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Latvia</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">2468982 habitants
+                        </td>
+<td class="card-text">64100 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Lebanon</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">3776317 habitants
+                        </td>
+<td class="card-text">10400 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Lesotho</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">1970781 habitants
+                        </td>
+<td class="card-text">30350 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Liberia</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">2109789 habitants
+                        </td>
+<td class="card-text">111370 km2
+                        </td>
+</tr>
+</table>
+<br><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">English<rect height="20" width="40" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Libya</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">5445436 habitants
+                        </td>
+<td class="card-text">1759540 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Liechtenstein</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">31122 habitants
+                        </td>
+<td class="card-text">160 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Lithuania</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">3646041 habitants
+                        </td>
+<td class="card-text">65200 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Luxembourg</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">415870 habitants
+                        </td>
+<td class="card-text">2586 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Macau</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">496837 habitants
+                        </td>
+<td class="card-text">16 km2
+                        </td>
+</tr>
+</table>
+<br><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">Portuguese<rect height="20" width="8" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Macedonia</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">2104035 habitants
+                        </td>
+<td class="card-text">25333 km2
+                        </td>
+</tr>
+</table>
+<br><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">Macedonian<rect height="20" width="140" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg><svg height="20" width="300">Albanian<rect height="20" width="42" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg><svg height="20" width="300">Turkish<rect height="20" width="6" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg><svg height="20" width="300">Serbo-Croatian<rect height="20" width="6" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Madagascar</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">13670507 habitants
+                        </td>
+<td class="card-text">587040 km2
+                        </td>
+</tr>
+</table>
+<br><p>Ville: </p>
+            Antananarivo
+            1250000
+        <hr>
+<h4>Histogramme</h4>
+<svg width="30" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="30" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="45.718860317324" x="0" y="181.71245587307"></rect><text x="200" y="200" dy="50">Antananarivo</text></g>
+        
+    </svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Malawi</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">9452844 habitants
+                        </td>
+<td class="card-text">118480 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Malaysia</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">19962892 habitants
+                        </td>
+<td class="card-text">329750 km2
+                        </td>
+</tr>
+</table>
+<br><p>Ville: </p>
+            Kuala Lumpur
+            1145075
+        <hr>
+<h4>Histogramme</h4>
+<svg width="30" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="30" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="28.6800880353408" x="0" y="188.527964785864"></rect><text x="200" y="200" dy="50">Kuala Lumpur</text></g>
+        
+    </svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Maldives</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">270758 habitants
+                        </td>
+<td class="card-text">300 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Mali</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">9653261 habitants
+                        </td>
+<td class="card-text">1240000 km2
+                        </td>
+</tr>
+</table>
+<br><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">Bambara<rect height="20" width="160" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Malta</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">375576 habitants
+                        </td>
+<td class="card-text">320 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Man</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">73837 habitants
+                        </td>
+<td class="card-text">588 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Marshall Islands</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">58363 habitants
+                        </td>
+<td class="card-text">181.3 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Martinique</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">399151 habitants
+                        </td>
+<td class="card-text">1100 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Mauritania</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">2336048 habitants
+                        </td>
+<td class="card-text">1030700 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Mauritius</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">1140256 habitants
+                        </td>
+<td class="card-text">1860 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Mayotte</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">100838 habitants
+                        </td>
+<td class="card-text">375 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Mexico</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">95772464 habitants
+                        </td>
+<td class="card-text">1972550 km2
+                        </td>
+</tr>
+</table>
+<br><p>Villes :</p>
+            Nezahualcoyotl
+            1255456
+        
+            Guadalajara
+            1650042
+        
+            Monterrey
+            1068996
+        
+            Puebla
+            1007170
+        
+            Mexico
+            9815795
+        <hr>
+<h4>Histogramme</h4>
+<svg width="150" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="150" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="51.2453924125832" x="0" y="179.501843034967"></rect><text x="200" y="200" dy="50">Mexico</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="8.614386281217532" x="30" y="196.554245487513"></rect><text x="200" y="200" dy="50">Guadalajara</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="6.554368278548206" x="60" y="197.378252688581"></rect><text x="200" y="200" dy="50">Nezahualcoyotl</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="5.580915199174576" x="90" y="197.76763392033"></rect><text x="200" y="200" dy="50">Monterrey</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="5.25813975089959" x="120" y="197.89674409964"></rect><text x="200" y="200" dy="50">Puebla</text></g>
+        
+        
+        
+        
+        
+    </svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Micronesia</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">125377 habitants
+                        </td>
+<td class="card-text">702 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Moldova</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">4463847 habitants
+                        </td>
+<td class="card-text">33700 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Monaco</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">31719 habitants
+                        </td>
+<td class="card-text">1.9 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Mongolia</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">2496617 habitants
+                        </td>
+<td class="card-text">1565000 km2
+                        </td>
+</tr>
+</table>
+<br><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">Khalkha Mongol<rect height="20" width="180" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Montserrat</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">12771 habitants
+                        </td>
+<td class="card-text">100 km2
+                        </td>
+</tr>
+</table>
+<br><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">English<rect height="20" width="200" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Morocco</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">29779156 habitants
+                        </td>
+<td class="card-text">446550 km2
+                        </td>
+</tr>
+</table>
+<br><p>Villes :</p>
+            Rabat
+            1385872
+        
+            Casablanca
+            2940623
+        <hr>
+<h4>Histogramme</h4>
+<svg width="60" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="60" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="49.3738472641736" x="0" y="180.250461094331"></rect><text x="200" y="200" dy="50">Casablanca</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="23.2691618258086" x="30" y="190.692335269677"></rect><text x="200" y="200" dy="50">Rabat</text></g>
+        
+        
+    </svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Mozambique</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">17877928 habitants
+                        </td>
+<td class="card-text">801590 km2
+                        </td>
+</tr>
+</table>
+<br><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">Portuguese<rect height="20" width="200" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Namibia</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">1677243 habitants
+                        </td>
+<td class="card-text">825418 km2
+                        </td>
+</tr>
+</table>
+<br><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">Afrikaans<rect height="20" width="120" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg><svg height="20" width="300">German<rect height="20" width="64" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg><svg height="20" width="300">English<rect height="20" width="14" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Nauru</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">10273 habitants
+                        </td>
+<td class="card-text">21 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Nepal</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">22094032 habitants
+                        </td>
+<td class="card-text">140800 km2
+                        </td>
+</tr>
+</table>
+<br><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">Nepali<rect height="20" width="200" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Netherlands</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">15568034 habitants
+                        </td>
+<td class="card-text">37330 km2
+                        </td>
+</tr>
+</table>
+<br><p>Villes :</p>
+            Amsterdam
+            1101407
+        
+            Rotterdam
+            1078747
+        <hr>
+<h4>Histogramme</h4>
+<svg width="60" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="60" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="35.3739913466273" x="0" y="185.850403461349"></rect><text x="200" y="200" dy="50">Amsterdam</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="34.6462180131415" x="30" y="186.141512794743"></rect><text x="200" y="200" dy="50">Rotterdam</text></g>
+        
+        
+        Dutch
+    </svg><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">Dutch<rect height="20" width="200" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Netherlands Antilles</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">208968 habitants
+                        </td>
+<td class="card-text">960 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  New Caledonia</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">187784 habitants
+                        </td>
+<td class="card-text">19060 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  New Zealand</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">3547983 habitants
+                        </td>
+<td class="card-text">268680 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Nicaragua</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">4272352 habitants
+                        </td>
+<td class="card-text">129494 km2
+                        </td>
+</tr>
+</table>
+<br><p>Ville: </p>
+            Managua
+            1195000
+        <hr>
+<h4>Histogramme</h4>
+<svg width="30" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="30" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="139.85270876557" x="0" y="144.058916493772"></rect><text x="200" y="200" dy="50">Managua</text></g>
+        
+        Spanish
+    </svg><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">Spanish<rect height="20" width="200" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Niger</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">9113001 habitants
+                        </td>
+<td class="card-text">1267000 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Nigeria</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">103912488 habitants
+                        </td>
+<td class="card-text">923770 km2
+                        </td>
+</tr>
+</table>
+<br><p>Villes :</p>
+            Lagos
+            5686000
+        
+            Ibadan
+            1263000
+        <hr>
+<h4>Histogramme</h4>
+<svg width="60" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="60" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="27.3595604793911" x="0" y="189.056175808244"></rect><text x="200" y="200" dy="50">Lagos</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="6.077229139196437" x="30" y="197.569108344321"></rect><text x="200" y="200" dy="50">Ibadan</text></g>
+        
+        
+    </svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Niue</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">2174 habitants
+                        </td>
+<td class="card-text">260 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Norfolk Island</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">2209 habitants
+                        </td>
+<td class="card-text">34.6 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  North Korea</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">23904124 habitants
+                        </td>
+<td class="card-text">120540 km2
+                        </td>
+</tr>
+</table>
+<br><p>Ville: </p>
+            Pyongyang
+            2335000
+        <hr>
+<h4>Histogramme</h4>
+<svg width="30" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="30" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="48.8409447675221" x="0" y="180.463622092991"></rect><text x="200" y="200" dy="50">Pyongyang</text></g>
+        
+        Korean
+    </svg><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">Korean<rect height="20" width="200" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Northern Mariana Islands</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">52284 habitants
+                        </td>
+<td class="card-text">477 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Norway</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">4383807 habitants
+                        </td>
+<td class="card-text">324220 km2
+                        </td>
+</tr>
+</table>
+<br><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">Norwegian<rect height="20" width="200" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Oman</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">2186548 habitants
+                        </td>
+<td class="card-text">212460 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Pakistan</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">129275664 habitants
+                        </td>
+<td class="card-text">803940 km2
+                        </td>
+</tr>
+</table>
+<br><p>Villes :</p>
+            Hyderabad
+            1107000
+        
+            Peshawar
+            1676000
+        
+            Lahore
+            5085000
+        
+            Karachi
+            9863000
+        
+            Faisalabad
+            1875000
+        
+            Gujranwala
+            1663000
+        
+            Rawalpindi
+            1290000
+        
+            Multan
+            1257000
+        <hr>
+<h4>Histogramme</h4>
+<svg width="240" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="240" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="38.1471643417743" x="0" y="184.74113426329"></rect><text x="200" y="200" dy="50">Karachi</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="19.6672747316154" x="30" y="192.133090107354"></rect><text x="200" y="200" dy="50">Lahore</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="7.25194496003517" x="60" y="197.099222015986"></rect><text x="200" y="200" dy="50">Faisalabad</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="6.48227186827677" x="90" y="197.407091252689"></rect><text x="200" y="200" dy="50">Peshawar</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="6.43199171655386" x="120" y="197.427203313378"></rect><text x="200" y="200" dy="50">Gujranwala</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="4.989338132504196" x="150" y="198.004264746998"></rect><text x="200" y="200" dy="50">Rawalpindi</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="4.861703901207577" x="180" y="198.055318439517"></rect><text x="200" y="200" dy="50">Multan</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="4.281548304404764" x="210" y="198.287380678238"></rect><text x="200" y="200" dy="50">Hyderabad</text></g>
+        
+        
+        
+        
+        
+        
+        
+        
+        Pashtu
+        Urdu
+        Punjabi
+        Sindhi
+        Balochi
+        Hindko
+        Brahui
+        Siraiki
+    </svg><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">Punjabi<rect height="20" width="96" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg><svg height="20" width="300">Sindhi<rect height="20" width="24" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg><svg height="20" width="300">Siraiki<rect height="20" width="20" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg><svg height="20" width="300">Pashtu<rect height="20" width="16" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg><svg height="20" width="300">Urdu<rect height="20" width="16" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg><svg height="20" width="300">Balochi<rect height="20" width="6" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg><svg height="20" width="300">Hindko<rect height="20" width="4" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg><svg height="20" width="300">Brahui<rect height="20" width="2" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Palau</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">16952 habitants
+                        </td>
+<td class="card-text">458 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Panama</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">2655094 habitants
+                        </td>
+<td class="card-text">78200 km2
+                        </td>
+</tr>
+</table>
+<br><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">English<rect height="20" width="28" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Papua New Guinea</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">4394537 habitants
+                        </td>
+<td class="card-text">461690 km2
+                        </td>
+</tr>
+</table>
+<br><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">English<rect height="20" width="2" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Paraguay</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">5504146 habitants
+                        </td>
+<td class="card-text">406750 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Peru</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">24523408 habitants
+                        </td>
+<td class="card-text">1285220 km2
+                        </td>
+</tr>
+</table>
+<br><p>Ville: </p>
+            Lima
+            6321173
+        <hr>
+<h4>Histogramme</h4>
+<svg width="30" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="30" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="128.880394600946" x="0" y="148.447842159622"></rect><text x="200" y="200" dy="50">Lima</text></g>
+        
+    </svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Philippines</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">74480848 habitants
+                        </td>
+<td class="card-text">300000 km2
+                        </td>
+</tr>
+</table>
+<br><p>Villes :</p>
+            Manila
+            1655000
+        
+            Quezon
+            1989000
+        
+            Kalookan
+            1023000
+        
+            Davao
+            1007000
+        <hr>
+<h4>Histogramme</h4>
+<svg width="120" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="120" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="13.352425847783" x="0" y="194.659029660887"></rect><text x="200" y="200" dy="50">Quezon</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="11.1102387019009" x="30" y="195.55590451924"></rect><text x="200" y="200" dy="50">Manila</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="6.867537276159907" x="60" y="197.252985089536"></rect><text x="200" y="200" dy="50">Kalookan</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="6.760127113482919" x="90" y="197.295949154607"></rect><text x="200" y="200" dy="50">Davao</text></g>
+        
+        
+        
+        
+    </svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Pitcairn Islands</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">56 habitants
+                        </td>
+<td class="card-text">47 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Poland</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">38642564 habitants
+                        </td>
+<td class="card-text">312683 km2
+                        </td>
+</tr>
+</table>
+<br><p>Ville: </p>
+            Warsaw
+            1655000
+        <hr>
+<h4>Histogramme</h4>
+<svg width="30" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="30" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="21.4142105063215" x="0" y="191.434315797471"></rect><text x="200" y="200" dy="50">Warsaw</text></g>
+        
+        Polish
+    </svg><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">Polish<rect height="20" width="200" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Portugal</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">9865114 habitants
+                        </td>
+<td class="card-text">92080 km2
+                        </td>
+</tr>
+</table>
+<br><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">Portuguese<rect height="20" width="200" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Puerto Rico</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">3819023 habitants
+                        </td>
+<td class="card-text">9104 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Qatar</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">547761 habitants
+                        </td>
+<td class="card-text">11000 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Reunion</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">679198 habitants
+                        </td>
+<td class="card-text">2510 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Romania</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">21657162 habitants
+                        </td>
+<td class="card-text">237500 km2
+                        </td>
+</tr>
+</table>
+<br><p>Ville: </p>
+            Bucharest
+            2037000
+        <hr>
+<h4>Histogramme</h4>
+<svg width="30" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="30" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="47.0283225475249" x="0" y="181.18867098099"></rect><text x="200" y="200" dy="50">Bucharest</text></g>
+        
+    </svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Russia</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">148178480 habitants
+                        </td>
+<td class="card-text">17075200 km2
+                        </td>
+</tr>
+</table>
+<br><p>Villes :</p>
+            Sankt Peterburg
+            4838000
+        
+            Moscow
+            8717000
+        
+            Nizhniy Novgorod
+            1383000
+        
+            Kazan
+            1085000
+        
+            Volgograd
+            1003000
+        
+            Samara
+            1184000
+        
+            Rostov na Donu
+            1026000
+        
+            Ufa
+            1094000
+        
+            Perm
+            1032000
+        
+            Yekaterinburg
+            1280000
+        
+            Chelyabinsk
+            1086000
+        
+            Novosibirsk
+            1369000
+        
+            Omsk
+            1163000
+        <hr>
+<h4>Histogramme</h4>
+<svg width="390" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="390" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="29.4138528077761" x="0" y="188.23445887689"></rect><text x="200" y="200" dy="50">Moscow</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="16.3249076384101" x="30" y="193.470036944636"></rect><text x="200" y="200" dy="50">Sankt Peterburg</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="4.666669546077136" x="60" y="198.133332181569"></rect><text x="200" y="200" dy="50">Nizhniy Novgorod</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="4.619429218061893" x="90" y="198.152228312775"></rect><text x="200" y="200" dy="50">Novosibirsk</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="4.319115704250712" x="120" y="198.2723537183"></rect><text x="200" y="200" dy="50">Yekaterinburg</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="3.995182026431908" x="150" y="198.401927189427"></rect><text x="200" y="200" dy="50">Samara</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="3.924321534409045" x="180" y="198.430271386236"></rect><text x="200" y="200" dy="50">Omsk</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="3.69149420347678" x="210" y="198.523402318609"></rect><text x="200" y="200" dy="50">Ufa</text></g>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        Russian
+    </svg><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">Russian<rect height="20" width="200" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Rwanda</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">6853359 habitants
+                        </td>
+<td class="card-text">26340 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Saint Helena</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">6782 habitants
+                        </td>
+<td class="card-text">410 km2
+                        </td>
+</tr>
+</table>
+<br><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">English<rect height="20" width="200" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Saint Kitts and Nevis</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">41369 habitants
+                        </td>
+<td class="card-text">269 km2
+                        </td>
+</tr>
+</table>
+<br><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">English<rect height="20" width="200" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Saint Lucia</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">157862 habitants
+                        </td>
+<td class="card-text">620 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Saint Pierre and Miquelon</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">6809 habitants
+                        </td>
+<td class="card-text">242 km2
+                        </td>
+</tr>
+</table>
+<br><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">French<rect height="20" width="200" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Saint Vincent and the Grenadines</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">118344 habitants
+                        </td>
+<td class="card-text">340 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  San Marino</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">24521 habitants
+                        </td>
+<td class="card-text">60 km2
+                        </td>
+</tr>
+</table>
+<br><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">Italian<rect height="20" width="200" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Sao Tome and Principe</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">144128 habitants
+                        </td>
+<td class="card-text">960 km2
+                        </td>
+</tr>
+</table>
+<br><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">Portuguese<rect height="20" width="200" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Saudi Arabia</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">19409058 habitants
+                        </td>
+<td class="card-text">1960582 km2
+                        </td>
+</tr>
+</table>
+<br><p>Ville: </p>
+            Riyadh
+            1250000
+        <hr>
+<h4>Histogramme</h4>
+<svg width="30" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="30" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="32.2014597514212" x="0" y="187.119416099432"></rect><text x="200" y="200" dy="50">Riyadh</text></g>
+        
+        Arabic
+    </svg><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">Arabic<rect height="20" width="200" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Senegal</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">9092749 habitants
+                        </td>
+<td class="card-text">196190 km2
+                        </td>
+</tr>
+</table>
+<br><p>Ville: </p>
+            Dakar
+            1382000
+        <hr>
+<h4>Histogramme</h4>
+<svg width="30" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="30" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="75.9946194489697" x="0" y="169.602152220412"></rect><text x="200" y="200" dy="50">Dakar</text></g>
+        
+    </svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Serbia and Montenegro</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">10614558 habitants
+                        </td>
+<td class="card-text">102350 km2
+                        </td>
+</tr>
+</table>
+<br><p>Ville: </p>
+            Belgrade
+            1407073
+        <hr>
+<h4>Histogramme</h4>
+<svg width="30" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="30" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="66.2803387573934" x="0" y="173.487864497043"></rect><text x="200" y="200" dy="50">Belgrade</text></g>
+        
+        Albanian
+        Serbo-Croatian
+    </svg><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">Serbo-Croatian<rect height="20" width="190" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg><svg height="20" width="300">Albanian<rect height="20" width="10" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Seychelles</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">77575 habitants
+                        </td>
+<td class="card-text">455 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Sierra Leone</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">4793121 habitants
+                        </td>
+<td class="card-text">71740 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Singapore</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">3396924 habitants
+                        </td>
+<td class="card-text">632.6 km2
+                        </td>
+</tr>
+</table>
+<br><p>Ville: </p>
+            Singapore
+            2558000
+        <hr>
+<h4>Histogramme</h4>
+<svg width="30" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="30" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="376.517107830496" x="0" y="49.3931568678016"></rect><text x="200" y="200" dy="50">Singapore</text></g>
+        
+    </svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Slovakia</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">5374362 habitants
+                        </td>
+<td class="card-text">48845 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Slovenia</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">1951443 habitants
+                        </td>
+<td class="card-text">20256 km2
+                        </td>
+</tr>
+</table>
+<br><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">Slovenian<rect height="20" width="182" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg><svg height="20" width="300">Serbo-Croatian<rect height="20" width="14" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Solomon Islands</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">412902 habitants
+                        </td>
+<td class="card-text">28450 km2
+                        </td>
+</tr>
+</table>
+<br><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">English<rect height="20" width="2" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Somalia</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">9639151 habitants
+                        </td>
+<td class="card-text">637660 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  South Africa</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">41743460 habitants
+                        </td>
+<td class="card-text">1219912 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  South Korea</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">45482292 habitants
+                        </td>
+<td class="card-text">98480 km2
+                        </td>
+</tr>
+</table>
+<br><p>Villes :</p>
+            Seoul
+            10229262
+        
+            Pusan
+            3813814
+        
+            Taegu
+            2449139
+        
+            Inchon
+            2307618
+        
+            Kwangju
+            1257504
+        
+            Taejon
+            1272143
+        <hr>
+<h4>Histogramme</h4>
+<svg width="180" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="180" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="112.453237844742" x="0" y="155.018704862103"></rect><text x="200" y="200" dy="50">Seoul</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="41.9263611429257" x="30" y="183.22945554283"></rect><text x="200" y="200" dy="50">Pusan</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="26.9240938869132" x="60" y="189.230362445235"></rect><text x="200" y="200" dy="50">Taegu</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="25.3683125731658" x="90" y="189.852674970734"></rect><text x="200" y="200" dy="50">Inchon</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="13.9850361982637" x="120" y="194.405985520695"></rect><text x="200" y="200" dy="50">Taejon</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="13.8241054342644" x="150" y="194.470357826294"></rect><text x="200" y="200" dy="50">Kwangju</text></g>
+        
+        
+        
+        
+        
+        
+    </svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Spain</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">39181112 habitants
+                        </td>
+<td class="card-text">504750 km2
+                        </td>
+</tr>
+</table>
+<br><p>Villes :</p>
+            Barcelona
+            1630867
+        
+            Madrid
+            3041101
+        <hr>
+<h4>Histogramme</h4>
+<svg width="60" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="60" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="38.8082528132433" x="0" y="184.476698874703"></rect><text x="200" y="200" dy="50">Madrid</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="20.8119029393551" x="30" y="191.675238824258"></rect><text x="200" y="200" dy="50">Barcelona</text></g>
+        
+        
+        Catalan
+        Galician
+        Basque
+    </svg><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">Catalan<rect height="20" width="34" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg><svg height="20" width="300">Galician<rect height="20" width="14" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg><svg height="20" width="300">Basque<rect height="20" width="4" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Sri Lanka</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">18553074 habitants
+                        </td>
+<td class="card-text">65610 km2
+                        </td>
+</tr>
+</table>
+<br><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">Sinhala<rect height="20" width="148" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg><svg height="20" width="300">Tamil<rect height="20" width="36" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Sudan</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">31547544 habitants
+                        </td>
+<td class="card-text">2505810 km2
+                        </td>
+</tr>
+</table>
+<br><p>Ville: </p>
+            Omdurman
+            1267077
+        <hr>
+<h4>Histogramme</h4>
+<svg width="30" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="30" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="20.0820228668197" x="0" y="191.967190853272"></rect><text x="200" y="200" dy="50">Omdurman</text></g>
+        
+    </svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Suriname</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">436418 habitants
+                        </td>
+<td class="card-text">163270 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Svalbard</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">2715 habitants
+                        </td>
+<td class="card-text">62049 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Swaziland</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">998730 habitants
+                        </td>
+<td class="card-text">17360 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Sweden</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">8900954 habitants
+                        </td>
+<td class="card-text">449964 km2
+                        </td>
+</tr>
+</table>
+<br><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">Swedish<rect height="20" width="200" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Switzerland</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">7207060 habitants
+                        </td>
+<td class="card-text">41290 km2
+                        </td>
+</tr>
+</table>
+<br><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">German<rect height="20" width="130" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg><svg height="20" width="300">French<rect height="20" width="36" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg><svg height="20" width="300">Italian<rect height="20" width="24" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg><svg height="20" width="300">Romansch<rect height="20" width="2" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Syria</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">15608648 habitants
+                        </td>
+<td class="card-text">185180 km2
+                        </td>
+</tr>
+</table>
+<br><p>Ville: </p>
+            Damascus
+            1500000
+        <hr>
+<h4>Histogramme</h4>
+<svg width="30" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="30" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="48.0502859696753" x="0" y="180.77988561213"></rect><text x="200" y="200" dy="50">Damascus</text></g>
+        
+    </svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Taiwan</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">21465880 habitants
+                        </td>
+<td class="card-text">35980 km2
+                        </td>
+</tr>
+</table>
+<br><p>Villes :</p>
+            Kaohsiung
+            1426518
+        
+            Taipei
+            2626138
+        <hr>
+<h4>Histogramme</h4>
+<svg width="60" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="60" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="61.1700521944593" x="0" y="175.531979122216"></rect><text x="200" y="200" dy="50">Taipei</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="33.2275685879172" x="30" y="186.708972564833"></rect><text x="200" y="200" dy="50">Kaohsiung</text></g>
+        
+        
+    </svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Tajikistan</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">5916373 habitants
+                        </td>
+<td class="card-text">143100 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Tanzania</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">29058470 habitants
+                        </td>
+<td class="card-text">945090 km2
+                        </td>
+</tr>
+</table>
+<br><p>Ville: </p>
+            Dar es Salaam
+            1360850
+        <hr>
+<h4>Histogramme</h4>
+<svg width="30" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="30" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="23.4157200981332" x="0" y="190.633711960747"></rect><text x="200" y="200" dy="50">Dar es Salaam</text></g>
+        
+    </svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Thailand</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">58851356 habitants
+                        </td>
+<td class="card-text">514000 km2
+                        </td>
+</tr>
+</table>
+<br><p>Ville: </p>
+            Bangkok
+            5876000
+        <hr>
+<h4>Histogramme</h4>
+<svg width="30" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="30" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="49.922384116349" x="0" y="180.03104635346"></rect><text x="200" y="200" dy="50">Bangkok</text></g>
+        
+    </svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Togo</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">4570530 habitants
+                        </td>
+<td class="card-text">56790 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Tonga</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">106466 habitants
+                        </td>
+<td class="card-text">748 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Trinidad and Tobago</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">1272385 habitants
+                        </td>
+<td class="card-text">5130 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Tunisia</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">9019687 habitants
+                        </td>
+<td class="card-text">163610 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Turkey</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">62484480 habitants
+                        </td>
+<td class="card-text">780580 km2
+                        </td>
+</tr>
+</table>
+<br><p>Villes :</p>
+            Adana
+            1047300
+        
+            Ankara
+            2782200
+        
+            Istanbul
+            7615500
+        
+            Izmir
+            1985300
+        <hr>
+<h4>Histogramme</h4>
+<svg width="120" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="120" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="60.9391324053589" x="0" y="175.624347037856"></rect><text x="200" y="200" dy="50">Istanbul</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="22.2631283800393" x="30" y="191.094748647984"></rect><text x="200" y="200" dy="50">Ankara</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="15.8863448971649" x="60" y="193.645462041134"></rect><text x="200" y="200" dy="50">Izmir</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="8.380481041052114" x="90" y="196.647807583579"></rect><text x="200" y="200" dy="50">Adana</text></g>
+        
+        
+        
+        
+    </svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Turkmenistan</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">4149283 habitants
+                        </td>
+<td class="card-text">488100 km2
+                        </td>
+</tr>
+</table>
+<br><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">Turkmen<rect height="20" width="144" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg><svg height="20" width="300">Russian<rect height="20" width="24" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg><svg height="20" width="300">Uzbek<rect height="20" width="18" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Turks and Caicos Islands</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">14302 habitants
+                        </td>
+<td class="card-text">430 km2
+                        </td>
+</tr>
+</table>
+<br><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">English<rect height="20" width="200" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Tuvalu</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">10146 habitants
+                        </td>
+<td class="card-text">26 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Uganda</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">20158176 habitants
+                        </td>
+<td class="card-text">236040 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Ukraine</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">50864008 habitants
+                        </td>
+<td class="card-text">603700 km2
+                        </td>
+</tr>
+</table>
+<br><p>Villes :</p>
+            Dnipropetrovsk
+            1187000
+        
+            Donetsk
+            1117000
+        
+            Kharkiv
+            1618000
+        
+            Kiev
+            2616000
+        
+            Odesa
+            1106000
+        <hr>
+<h4>Histogramme</h4>
+<svg width="150" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="150" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="25.7156298025118" x="0" y="189.713748078995"></rect><text x="200" y="200" dy="50">Kiev</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="15.9051563533884" x="30" y="193.637937458645"></rect><text x="200" y="200" dy="50">Kharkiv</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="11.6683687215526" x="60" y="195.332652511379"></rect><text x="200" y="200" dy="50">Dnipropetrovsk</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="10.9802593613936" x="90" y="195.607896255443"></rect><text x="200" y="200" dy="50">Donetsk</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="10.8721278905115" x="120" y="195.651148843795"></rect><text x="200" y="200" dy="50">Odesa</text></g>
+        
+        
+        
+        
+        
+    </svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  United Arab Emirates</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">3057337 habitants
+                        </td>
+<td class="card-text">75581 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  United Kingdom</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">58489976 habitants
+                        </td>
+<td class="card-text">244820 km2
+                        </td>
+</tr>
+</table>
+<br><p>Villes :</p>
+            London
+            6967500
+        
+            Birmingham
+            1008400
+        <hr>
+<h4>Histogramme</h4>
+<svg width="60" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="60" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="59.5614879376938" x="0" y="176.175404824922"></rect><text x="200" y="200" dy="50">London</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="8.620280507552268" x="30" y="196.551887796979"></rect><text x="200" y="200" dy="50">Birmingham</text></g>
+        
+        
+    </svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  United States</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">266476272 habitants
+                        </td>
+<td class="card-text">9372610 km2
+                        </td>
+</tr>
+</table>
+<br><p>Villes :</p>
+            Phoenix
+            1159014
+        
+            Los Angeles
+            3553638
+        
+            San Diego
+            1171121
+        
+            Chicago
+            2721547
+        
+            Detroit
+            1000272
+        
+            New York
+            7380906
+        
+            Philadelphia
+            1478002
+        
+            Houston
+            1744058
+        
+            San Antonio
+            1067816
+        
+            Dallas
+            1053292
+        <hr>
+<h4>Histogramme</h4>
+<svg width="300" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="300" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="13.849086720937" x="0" y="194.460365311625"></rect><text x="200" y="200" dy="50">New York</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="6.667831948654701" x="30" y="197.332867220538"></rect><text x="200" y="200" dy="50">Los Angeles</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="5.106546597139426" x="60" y="197.957381361144"></rect><text x="200" y="200" dy="50">Chicago</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="3.272445210431344" x="90" y="198.691021915827"></rect><text x="200" y="200" dy="50">Houston</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="2.773233783456712" x="120" y="198.890706486617"></rect><text x="200" y="200" dy="50">Philadelphia</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="2.197420789495284" x="150" y="199.121031684202"></rect><text x="200" y="200" dy="50">San Diego</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="2.174703945122739" x="180" y="199.130118421951"></rect><text x="200" y="200" dy="50">Phoenix</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="2.003585519989562" x="210" y="199.198565792004"></rect><text x="200" y="200" dy="50">San Antonio</text></g>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Uruguay</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">3238952 habitants
+                        </td>
+<td class="card-text">176220 km2
+                        </td>
+</tr>
+</table>
+<br><p>Ville: </p>
+            Montevideo
+            1247000
+        <hr>
+<h4>Histogramme</h4>
+<svg width="30" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="30" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="192.500537210802" x="0" y="122.999785115679"></rect><text x="200" y="200" dy="50">Montevideo</text></g>
+        
+    </svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Uzbekistan</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">23418380 habitants
+                        </td>
+<td class="card-text">447400 km2
+                        </td>
+</tr>
+</table>
+<br><p>Ville: </p>
+            Tashkent
+            2106000
+        <hr>
+<h4>Histogramme</h4>
+<svg width="30" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="30" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="44.9646815877102" x="0" y="182.014127364916"></rect><text x="200" y="200" dy="50">Tashkent</text></g>
+        
+        Russian
+        Tajik
+        Uzbek
+    </svg><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">Uzbek<rect height="20" width="148.6" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg><svg height="20" width="300">Russian<rect height="20" width="28.4" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg><svg height="20" width="300">Tajik<rect height="20" width="8.800000000000001" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Vanuatu</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">177504 habitants
+                        </td>
+<td class="card-text">14760 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Venezuela</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">21983188 habitants
+                        </td>
+<td class="card-text">912050 km2
+                        </td>
+</tr>
+</table>
+<br><p>Villes :</p>
+            Maracaibo
+            1249670
+        
+            Caracas
+            1822465
+        <hr>
+<h4>Histogramme</h4>
+<svg width="60" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="60" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="41.4513354477977" x="0" y="183.419465820881"></rect><text x="200" y="200" dy="50">Caracas</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="28.4233114869417" x="30" y="188.630675405223"></rect><text x="200" y="200" dy="50">Maracaibo</text></g>
+        
+        
+    </svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Vietnam</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">73976976 habitants
+                        </td>
+<td class="card-text">329560 km2
+                        </td>
+</tr>
+</table>
+<br><p>Villes :</p>
+            Hanoi
+            3056146
+        
+            Haiphong
+            1447523
+        
+            Ho Chi Minh City
+            3924435
+        <hr>
+<h4>Histogramme</h4>
+<svg width="90" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="90" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="26.5247054705237" x="0" y="189.390117811791"></rect><text x="200" y="200" dy="50">Ho Chi Minh City</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="20.656061961765" x="30" y="191.737575215294"></rect><text x="200" y="200" dy="50">Hanoi</text></g><g style="fill: tomato;height: 21px;"><rect width="20" height="9.783604834022952" x="60" y="196.086558066391"></rect><text x="200" y="200" dy="50">Haiphong</text></g>
+        
+        
+        
+    </svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Virgin Islands</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">97120 habitants
+                        </td>
+<td class="card-text">352 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Wallis and Futuna</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">14659 habitants
+                        </td>
+<td class="card-text">274 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Western Sahara</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">222631 habitants
+                        </td>
+<td class="card-text">266000 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Western Samoa</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">214384 habitants
+                        </td>
+<td class="card-text">2860 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Yemen</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">13483178 habitants
+                        </td>
+<td class="card-text">527970 km2
+                        </td>
+</tr>
+</table>
+<br><hr>
+<h4>Langues</h4>
+<svg height="20" width="300">Arabic<rect height="20" width="200" style="fill: tomato"></rect><rect height="20" width="200" style="fill-opacity: 0; stroke: grey"></rect><text x="200" y="200" dy="50"></text></svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Zaire</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">46498540 habitants
+                        </td>
+<td class="card-text">2345410 km2
+                        </td>
+</tr>
+</table>
+<br><p>Ville: </p>
+            Kinshasa
+            4655313
+        <hr>
+<h4>Histogramme</h4>
+<svg width="30" height="200"><line x1="0" y1="200" x2="0" y2="0" style="stroke: grey"></line><line x1="0" y1="200" x2="30" y2="200" style="stroke: grey"></line><text x="4" y="20">100%</text><g style="fill: tomato;height: 21px;"><rect width="20" height="50.0587007678091" x="0" y="179.976519692876"></rect><text x="200" y="200" dy="50">Kinshasa</text></g>
+        
+    </svg>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Zambia</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">9159072 habitants
+                        </td>
+<td class="card-text">752610 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br><div class="card" style="width: 25rem;">
+<div class="card-body">
+<h3 class="card-title">Pays :  Zimbabwe</h3>
+<table class="table">
+<tr>
+<th scope="col">Population</th>
+<th scope="col">Superficie</th>
+</tr>
+<tr>
+<td class="card-text">11271314 habitants
+                        </td>
+<td class="card-text">390580 km2
+                        </td>
+</tr>
+</table>
+<br>
+</div>
+<br>
+</div>
+<br>
+</div></div></div>
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script><script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</html>

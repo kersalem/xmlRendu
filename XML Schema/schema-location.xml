@@ -1,0 +1,19 @@
+<presentation
+        xmlns="urn:presentation"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="urn:presentation schema.xsd"
+>
+    <en_tête>
+        <modèle nom="bleu" color="000EE" taille="18"/>
+        <modèle nom="rouge" color="EEOOOO" />
+        <modèle nom="bleu" color="000EE" taille="18"/>
+        <modèle nom="rouge" color="EEOOOO" />
+        <modèle nom="bleu" color="000EE" taille="18"/>
+        <modèle nom="rouge" color="EEOOOO" />
+        <modèle nom="vert" color="0000EE" taille="18" />
+    </en_tête>
+    <diapo ref_modèle="rouge">
+        <titre>Diapo 2</titre>
+        <corps/>
+    </diapo>
+</presentation>
